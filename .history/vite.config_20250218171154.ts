@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/', // For GitHub Pages
+  base: '/omniglobaledu.github.io/', // For GitHub Pages
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
